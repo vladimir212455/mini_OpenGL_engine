@@ -1,0 +1,3 @@
+/home/popik/OpenGL/build/CMakeFiles/Gl.dir
+/home/popik/OpenGL/build/CMakeFiles/edit_cache.dir
+/home/popik/OpenGL/build/CMakeFiles/rebuild_cache.dir

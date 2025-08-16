@@ -51,6 +51,7 @@ build cmake_object_order_depends_target_Gl: phony || .
 
 build CMakeFiles/Gl.dir/include/KHR/glad.c.o: C_COMPILER__Gl_unscanned_Debug /home/popik/OpenGL/include/KHR/glad.c || cmake_object_order_depends_target_Gl
   CONFIG = Debug
+  DEFINES = -DSTB_IMAGE_IMPLEMENTATION
   DEP_FILE = CMakeFiles/Gl.dir/include/KHR/glad.c.o.d
   FLAGS = -g
   INCLUDES = -I/home/popik/OpenGL/include -I/home/popik/OpenGL/assimp::assimp
@@ -59,6 +60,7 @@ build CMakeFiles/Gl.dir/include/KHR/glad.c.o: C_COMPILER__Gl_unscanned_Debug /ho
 
 build CMakeFiles/Gl.dir/src/Engine/main.cpp.o: CXX_COMPILER__Gl_unscanned_Debug /home/popik/OpenGL/src/Engine/main.cpp || cmake_object_order_depends_target_Gl
   CONFIG = Debug
+  DEFINES = -DSTB_IMAGE_IMPLEMENTATION
   DEP_FILE = CMakeFiles/Gl.dir/src/Engine/main.cpp.o.d
   FLAGS = -g -std=gnu++23
   INCLUDES = -I/home/popik/OpenGL/include -I/home/popik/OpenGL/assimp::assimp

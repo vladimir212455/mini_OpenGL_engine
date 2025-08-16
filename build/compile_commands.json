@@ -1,13 +1,13 @@
 [
 {
   "directory": "/home/popik/OpenGL/build",
-  "command": "/usr/bin/gcc -I/home/popik/OpenGL/include -I/home/popik/OpenGL/assimp::assimp -g -o CMakeFiles/Gl.dir/include/KHR/glad.c.o -c /home/popik/OpenGL/include/KHR/glad.c",
+  "command": "/usr/bin/gcc -DSTB_IMAGE_IMPLEMENTATION -I/home/popik/OpenGL/include -I/home/popik/OpenGL/assimp::assimp -g -o CMakeFiles/Gl.dir/include/KHR/glad.c.o -c /home/popik/OpenGL/include/KHR/glad.c",
   "file": "/home/popik/OpenGL/include/KHR/glad.c",
   "output": "CMakeFiles/Gl.dir/include/KHR/glad.c.o"
 },
 {
   "directory": "/home/popik/OpenGL/build",
-  "command": "/usr/bin/g++ -I/home/popik/OpenGL/include -I/home/popik/OpenGL/assimp::assimp -g -std=gnu++23 -o CMakeFiles/Gl.dir/src/Engine/main.cpp.o -c /home/popik/OpenGL/src/Engine/main.cpp",
+  "command": "/usr/bin/g++ -DSTB_IMAGE_IMPLEMENTATION -I/home/popik/OpenGL/include -I/home/popik/OpenGL/assimp::assimp -g -std=gnu++23 -o CMakeFiles/Gl.dir/src/Engine/main.cpp.o -c /home/popik/OpenGL/src/Engine/main.cpp",
   "file": "/home/popik/OpenGL/src/Engine/main.cpp",
   "output": "CMakeFiles/Gl.dir/src/Engine/main.cpp.o"
 }

@@ -1,6 +1,8 @@
+#include <glm/fwd.hpp>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
+#include <thread>
 #include "Model/shader.hpp"
 
 class Object
@@ -14,5 +16,9 @@ public:
     void SetShader(const char *path_v, const char *path_f);
     void SetScale(float scale);
     void SetPosition(float x, float y, float z);
-    void virtual Draw() = 0;
+    glm::vec3 GetPosition();
+    void virtual Draw()
+    {
+        std::cout << "Object::Draw" << std::endl;
+    }
 };

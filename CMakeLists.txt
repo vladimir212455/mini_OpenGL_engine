@@ -12,7 +12,6 @@ add_executable(${PROJECT_NAME}
     include/KHR/glad.c
     src/Engine/Camera/camera.hpp
     src/Engine/Object/Model/shader.hpp
-    
     src/Engine/Object/Model/model.hpp
     src/Engine/Object/Model/mesh.hpp
     src/Engine/Object/Object_Model.hpp
@@ -33,3 +32,4 @@ target_link_libraries(${PROJECT_NAME}
 set_target_properties(${PROJECT_NAME} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin"
 )
+target_compile_definitions(${PROJECT_NAME} PRIVATE STB_IMAGE_IMPLEMENTATION)

@@ -105,9 +105,9 @@ int main()
     
     // build and compile shaders
     // -------------------------
-    Shader shader("/home/popik/OpenGL/shaders/obj.vs", "/home/popik/OpenGL/shaders/obj.fs");
-    Shader screenShader("/home/popik/OpenGL/shaders/FraneShader/frame.vs", "/home/popik/OpenGL/shaders/FraneShader/frame.fs");
-    Shader skyboxShader("/home/popik/OpenGL/shaders/skybox/sky.vs", "/home/popik/OpenGL/shaders/skybox/sky.fs");
+    Shader shader("/home/popik/Документы/mini_OpenGL_engine/shaders/obj.vs", "/home/popik/Документы/mini_OpenGL_engine/shaders/obj.fs");
+    Shader screenShader("/home/popik/Документы/mini_OpenGL_engine/shaders/FraneShader/frame.vs", "/home/popik/Документы/mini_OpenGL_engine/shaders/FraneShader/frame.fs");
+    Shader skyboxShader("/home/popik/Документы/mini_OpenGL_engine/shaders/skybox/sky.vs", "/home/popik/Документы/mini_OpenGL_engine/shaders/skybox/sky.fs");
     float cubeVertices[] = {
         // positions          // texture Coords
         -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
@@ -265,16 +265,16 @@ float skyboxVertices[] = {
     // load textures
     // -------------
     std::vector<std::string> faces{
-    "/home/popik/OpenGL/resourse/skybox/right.jpg",
-    "/home/popik/OpenGL/resourse/skybox/left.jpg",
-    "/home/popik/OpenGL/resourse/skybox/top.jpg",
-    "/home/popik/OpenGL/resourse/skybox/bottom.jpg",
-    "/home/popik/OpenGL/resourse/skybox/front.jpg",
-    "/home/popik/OpenGL/resourse/skybox/back.jpg"
+    "/home/popik/Документы/mini_OpenGL_engine/resourse/skybox/right.jpg",
+    "/home/popik/Документы/mini_OpenGL_engine/resourse/skybox/left.jpg",
+    "/home/popik/Документы/mini_OpenGL_engine/resourse/skybox/top.jpg",
+    "/home/popik/Документы/mini_OpenGL_engine/resourse/skybox/bottom.jpg",
+    "/home/popik/Документы/mini_OpenGL_engine/resourse/skybox/front.jpg",
+    "/home/popik/Документы/mini_OpenGL_engine/resourse/skybox/back.jpg"
     };
     unsigned int cubemapTexture = loadCubemap(faces);  
-    unsigned int cubeTexture = loadTexture("/home/popik/OpenGL/resourse/container2.png");
-    unsigned int floorTexture = loadTexture("/home/popik/OpenGL/resourse/image.png");
+    unsigned int cubeTexture = loadTexture("/home/popik/Документы/mini_OpenGL_engine/resourse/container2.png");
+    unsigned int floorTexture = loadTexture("/home/popik/Документы/mini_OpenGL_engine/resourse/image.png");
 
     shader.use();
     shader.setInt("texture1", 0);
@@ -441,7 +441,7 @@ float skyboxVertices[] = {
 //     glFrontFace(GL_CCW);  
 //     // build and compile shaders
 //     // -------------------------
-//     Shader shader("/home/popik/OpenGL/shaders/obj.vs", "/home/popik/OpenGL/shaders/obj.fs");
+//     Shader shader("/home/popik/Документы/mini_OpenGL_engine/shaders/obj.vs", "/home/popik/Документы/mini_OpenGL_engine/shaders/obj.fs");
 
 //     // set up vertex data (and buffer(s)) and configure vertex attributes
 //     // ------------------------------------------------------------------
@@ -546,9 +546,9 @@ float skyboxVertices[] = {
 
 //     // load textures
 //     // -------------
-//     unsigned int cubeTexture = loadTexture("/home/popik/OpenGL/resourse/image.png");
-//     unsigned int floorTexture = loadTexture("/home/popik/OpenGL/resourse/image.png");
-//     unsigned int transparentTexture = loadTexture("/home/popik/OpenGL/resourse/container2_specular2.png");
+//     unsigned int cubeTexture = loadTexture("/home/popik/Документы/mini_OpenGL_engine/resourse/image.png");
+//     unsigned int floorTexture = loadTexture("/home/popik/Документы/mini_OpenGL_engine/resourse/image.png");
+//     unsigned int transparentTexture = loadTexture("/home/popik/Документы/mini_OpenGL_engine/resourse/container2_specular2.png");
 
 //     // transparent window locations
 //     // --------------------------------

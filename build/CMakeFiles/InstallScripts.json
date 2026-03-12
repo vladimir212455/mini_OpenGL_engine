@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/popik/OpenGL/build/cmake_install.cmake"
+		"/home/popik/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/mini_OpenGL_engine/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

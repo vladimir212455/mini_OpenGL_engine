@@ -1,16 +1,13 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include "Object/Model/model.hpp"
 #include "Object/Model/shader.hpp"
-
 #include "Camera/camera.cpp"
 #include <vector>
 #include <iostream>
-#include <map>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);

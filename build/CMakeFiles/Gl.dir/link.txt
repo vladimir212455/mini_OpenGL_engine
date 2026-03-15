@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Gl.dir/link.d CMakeFiles/Gl.dir/include/KHR/glad.c.o CMakeFiles/Gl.dir/src/Engine/main.cpp.o -o bin/Gl  /usr/lib/libglfw.so.3.4 -lassimp /usr/lib/libGLX.so /usr/lib/libOpenGL.so

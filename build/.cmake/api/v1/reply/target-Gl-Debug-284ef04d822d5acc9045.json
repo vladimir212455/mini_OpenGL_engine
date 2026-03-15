@@ -112,11 +112,11 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "/home/popik/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/mini_OpenGL_engine/include"
+					"path" : "/home/popik/document/mini_OpenGL_engine/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/home/popik/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/mini_OpenGL_engine/assimp::assimp"
+					"path" : "/home/popik/document/mini_OpenGL_engine/assimp::assimp"
 				}
 			],
 			"language" : "C",
@@ -143,11 +143,11 @@
 			[
 				{
 					"backtrace" : 8,
-					"path" : "/home/popik/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/mini_OpenGL_engine/include"
+					"path" : "/home/popik/document/mini_OpenGL_engine/include"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/home/popik/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/mini_OpenGL_engine/assimp::assimp"
+					"path" : "/home/popik/document/mini_OpenGL_engine/assimp::assimp"
 				}
 			],
 			"language" : "CXX",

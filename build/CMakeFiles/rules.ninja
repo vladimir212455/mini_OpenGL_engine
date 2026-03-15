@@ -84,7 +84,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake --regenerate-during-build -S/home/popik/Документы/mini_OpenGL_engine -B/home/popik/Документы/mini_OpenGL_engine/build
+  command = /usr/bin/cmake --regenerate-during-build -S/home/popik/document/mini_OpenGL_engine -B/home/popik/document/mini_OpenGL_engine/build
   description = Re-running CMake...
   generator = 1
 
@@ -93,7 +93,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /home/popik/.vscode-oss/extensions/kylinideteam.kylin-cmake-tools-0.0.4-universal/res/ninja/linux-x64/ninja $FILE_ARG -t clean $TARGETS
+  command = /home/popik/.vscode-oss/extensions/kylinideteam.kylin-cmake-tools-0.2.0-universal/res/ninja/linux-x64/ninja $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -101,6 +101,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /home/popik/.vscode-oss/extensions/kylinideteam.kylin-cmake-tools-0.0.4-universal/res/ninja/linux-x64/ninja -t targets
+  command = /home/popik/.vscode-oss/extensions/kylinideteam.kylin-cmake-tools-0.2.0-universal/res/ninja/linux-x64/ninja -t targets
   description = All primary targets available:
 

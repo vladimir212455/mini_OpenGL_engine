@@ -138,7 +138,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Gl::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Gl-Debug-d93d1ec3e0afb44c25b5.json",
+					"jsonFile" : "target-Gl-Debug-284ef04d822d5acc9045.json",
 					"name" : "Gl",
 					"projectIndex" : 0
 				}
@@ -148,8 +148,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/popik/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/mini_OpenGL_engine/build",
-		"source" : "/home/popik/\u0414\u043e\u043a\u0443\u043c\u0435\u043d\u0442\u044b/mini_OpenGL_engine"
+		"build" : "/home/popik/document/mini_OpenGL_engine/build",
+		"source" : "/home/popik/document/mini_OpenGL_engine"
 	},
 	"version" : 
 	{

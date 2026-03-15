@@ -2,8 +2,6 @@
 #include <utility>
 
 
-
-
 void Model::loadModel(string const&&  path)
 {
     Assimp::Importer importer;

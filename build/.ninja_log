@@ -1,0 +1,4 @@
+# ninja log v7
+2	1302	1773569741490989186	CMakeFiles/Gl.dir/include/KHR/glad.c.o	e7e486be6cef2d41
+1	3373	1773574782934243110	CMakeFiles/Gl.dir/src/Engine/main.cpp.o	276b7ea73a6cce19
+3373	3519	1773574786306271032	bin/Gl	6479297d4f194dd7

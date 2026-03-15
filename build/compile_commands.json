@@ -1,14 +1,14 @@
 [
 {
-  "directory": "/home/popik/Документы/mini_OpenGL_engine/build",
-  "command": "/usr/bin/gcc -DSTB_IMAGE_IMPLEMENTATION -I/home/popik/Документы/mini_OpenGL_engine/include -I/home/popik/Документы/mini_OpenGL_engine/assimp::assimp -g -o CMakeFiles/Gl.dir/include/KHR/glad.c.o -c /home/popik/Документы/mini_OpenGL_engine/include/KHR/glad.c",
-  "file": "/home/popik/Документы/mini_OpenGL_engine/include/KHR/glad.c",
-  "output": "/home/popik/Документы/mini_OpenGL_engine/build/CMakeFiles/Gl.dir/include/KHR/glad.c.o"
+  "directory": "/home/popik/document/mini_OpenGL_engine/build",
+  "command": "/usr/bin/gcc -DSTB_IMAGE_IMPLEMENTATION -I/home/popik/document/mini_OpenGL_engine/include -I/home/popik/document/mini_OpenGL_engine/assimp::assimp -g -o CMakeFiles/Gl.dir/include/KHR/glad.c.o -c /home/popik/document/mini_OpenGL_engine/include/KHR/glad.c",
+  "file": "/home/popik/document/mini_OpenGL_engine/include/KHR/glad.c",
+  "output": "/home/popik/document/mini_OpenGL_engine/build/CMakeFiles/Gl.dir/include/KHR/glad.c.o"
 },
 {
-  "directory": "/home/popik/Документы/mini_OpenGL_engine/build",
-  "command": "/usr/bin/g++ -DSTB_IMAGE_IMPLEMENTATION -I/home/popik/Документы/mini_OpenGL_engine/include -I/home/popik/Документы/mini_OpenGL_engine/assimp::assimp -g -std=gnu++23 -o CMakeFiles/Gl.dir/src/Engine/main.cpp.o -c /home/popik/Документы/mini_OpenGL_engine/src/Engine/main.cpp",
-  "file": "/home/popik/Документы/mini_OpenGL_engine/src/Engine/main.cpp",
-  "output": "/home/popik/Документы/mini_OpenGL_engine/build/CMakeFiles/Gl.dir/src/Engine/main.cpp.o"
+  "directory": "/home/popik/document/mini_OpenGL_engine/build",
+  "command": "/usr/bin/g++ -DSTB_IMAGE_IMPLEMENTATION -I/home/popik/document/mini_OpenGL_engine/include -I/home/popik/document/mini_OpenGL_engine/assimp::assimp -g -std=gnu++23 -o CMakeFiles/Gl.dir/src/Engine/main.cpp.o -c /home/popik/document/mini_OpenGL_engine/src/Engine/main.cpp",
+  "file": "/home/popik/document/mini_OpenGL_engine/src/Engine/main.cpp",
+  "output": "/home/popik/document/mini_OpenGL_engine/build/CMakeFiles/Gl.dir/src/Engine/main.cpp.o"
 }
 ]

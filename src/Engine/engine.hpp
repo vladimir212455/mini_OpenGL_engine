@@ -1,21 +1,27 @@
-#include <map>
+#include <glm/fwd.hpp>
 #include "Camera/camera.cpp"
 #include "Camera/camera.hpp"
+#include "Object/Model/shader.hpp"
 #include "Object/Object.hpp"
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
-#include <regex>
+#include <memory>
+#include <vector>
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtc/type_ptr.hpp>
 
 class Engine 
 {
-  static Camera camera;
+    std::unique_ptr<Shader> shader;
+    std::unique_ptr<Shader> skyboxShader;
+    unsigned int cubeVAO, cubeVBO;
+    unsigned int skyboxVAO, skyboxVBO;
+    std::vector<std::string> faces;
+    unsigned int cubeTexture;
+    unsigned int cubemapTexture;
   GLFWwindow *window;
   std::vector<Object> render_queue;
-  const unsigned int SCR_WIDTH = 800;
-  const unsigned int SCR_HEIGHT = 600;
-  static float lastX;
-  static float lastY;
-  static bool firstMouse;
   float deltaTime = 0.0f;
   float lastFrame = 0.0f;
 
@@ -24,16 +30,10 @@ class Engine
   static void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
   void processInput(GLFWwindow *window);
   unsigned int loadTexture(const char *path);
+  unsigned int loadCubemap(std::vector<std::string> faces);
 public:
-    Engine(int SCR_WIDTH_, int SCR_HEIGHT_) : SCR_HEIGHT(SCR_HEIGHT_), SCR_WIDTH(SCR_WIDTH_)
-    {
-        lastX = (float)SCR_WIDTH / 2.0;
-        lastY = (float)SCR_HEIGHT / 2.0;
-        firstMouse = true;
-        Camera camera_(glm::vec3(0.0f, 0.0f, 3.0f), glm::vec3(0.0f, 1.0f, 0.0f));
-        camera = camera_;
-    }
-    void init();
-    void run();
-    void destroy();
+
+    int init();
+    int run();
+    int destroy();
 };
